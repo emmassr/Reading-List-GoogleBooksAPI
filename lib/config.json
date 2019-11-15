@@ -1,0 +1,35 @@
+{
+  "credentials": {
+    "googleApiKey": "AIzaSyBj5vVsFkryyWruvCwbZnqREizNtw3Twdg"
+  },
+  "searchParams": {
+    "query": "Dan Brown",
+    "max-results": 5
+  },
+  "endpoints": {
+    "url": "https://www.googleapis.com/books/v1/volumes"
+  },
+  "readingList": [
+    {
+      "title": "Angels and Demons",
+      "authors": [
+        "Dan Brown"
+      ],
+      "publisher": "Random House"
+    },
+    {
+      "title": "Deception Point",
+      "authors": [
+        "Dan Brown"
+      ],
+      "publisher": "Simon and Schuster"
+    },
+    {
+      "title": "Origin",
+      "authors": [
+        "Dan Brown"
+      ],
+      "publisher": "Random House"
+    }
+  ]
+}
