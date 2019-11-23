@@ -1,6 +1,8 @@
-# Reading-List-GoogleBooksAPI
+# Creating a reading list using GoogleBooks API
 
 **Instructions for running the script:**
+
+(Important note: The API key in this application is stored as an environment variable. User can obtain their own API key [here](https://developers.google.com/books/docs/v1/using#APIKey), where they will be instructed on how to generate their own key for the GoogleBooks API).
 
 On the command line the following command should be entered to run the application:
 
