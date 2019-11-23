@@ -1,6 +1,4 @@
-import numpy as np
 import requests
-import pprint
 import json
 import pandas as pd
 import os
@@ -37,11 +35,9 @@ class GoogleBooks():
     def get_user_selection(self, df):
 
         user_selection = input("Please select a book title you want to add to your reading list, your entry must match the text case:")
-        book_selected = df['title'] == user_selection # add that row in the data frame to a list
+        book_selected = df['title'] == user_selection
         if book_selected.any():
             selected_book = df[book_selected]
-            # print(selected_book)
-            # print(type(selected_book))
             print("You have chosen:")
             return selected_book
         else:
@@ -68,7 +64,6 @@ class GoogleBooks():
             print(new_dataframe)
             new_book_selection = self.get_user_selection(new_dataframe)
             reading_list = self.adds_selection_to_reading_list(new_book_selection)
-            # print(reading_list)  # call method instead
             self.asks_user_to_search_again()
 
         else:
